@@ -11,4 +11,13 @@
         <constructor-arg name="name" value="zexi"/>
         <constructor-arg name="sex" value="male"/>
     </bean>
+
+    <!-- 使用工厂模式实例化Bean -->
+    <bean id="factory" class="com.zx.factory.FactoryA"></bean>
+
+    <bean id="ppl" factory-bean="factory" factory-method="getInstance">
+        <constructor-arg name="param" value="stu"/>
+    </bean>
+
+
 </beans>

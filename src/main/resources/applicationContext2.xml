@@ -4,5 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 <!-- DI注入的三种方式 -->
     <!-- 1.使用有参构造注入 -->
-
+    <bean id="school" class="com.zx.pojo.School">
+        <constructor-arg name="name" value="neu"/>
+        <constructor-arg name="location" value="boston"/>
+    </bean>
+    <bean id="stu3" class="com.zx.pojo.Student">
+        <constructor-arg name="age" value="25"/>
+        <constructor-arg name="name" value="zexi"/>
+        <constructor-arg name="sex" value="male"/>
+        <constructor-arg name="school" ref="school"/>
+    </bean>
+    <!-- Set方法注入 -->
+    <bean id="school"
 </beans>

@@ -4,16 +4,17 @@ public class Student implements People{
     private String name;
     private String sex;
     private Integer age;
+    private School school;
 
     public Student() {
         System.out.println("调用了无参构造方法1");
     }
 
-    public Student(String name, String sex, Integer age) {
-        System.out.println("有参构造");
+    public Student(String name, String sex, Integer age, School school) {
         this.name = name;
         this.sex = sex;
         this.age = age;
+        this.school = school;
     }
 
     public String getName() {
@@ -40,12 +41,21 @@ public class Student implements People{
         this.age = age;
     }
 
+    public School getSchool() {
+        return school;
+    }
+
+    public void setSchool(School school) {
+        this.school = school;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
                 "name='" + name + '\'' +
                 ", sex='" + sex + '\'' +
                 ", age=" + age +
+                ", school=" + school +
                 '}';
     }
 
