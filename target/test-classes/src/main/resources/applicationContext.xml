@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 使用spring IOC构建方法1——无参构造方法 -->
+    <bean id="stu" class="com.zx.pojo.Student"/>
+
+    <!-- 使用有参构造方法实例化Bean -->
+    <bean id="stu2" class="com.zx.pojo.Student">
+        <constructor-arg name="age" value="25"/>
+        <constructor-arg name="name" value="zexi"/>
+        <constructor-arg name="sex" value="male"/>
+    </bean>
+
+    <!-- 使用工厂模式实例化Bean -->
+    <bean id="factory" class="com.zx.factory.FactoryA"></bean>
+
+    <bean id="ppl" factory-bean="factory" factory-method="getInstance">
+        <constructor-arg name="param" value="stu"/>
+    </bean>
+
+
+</beans>
