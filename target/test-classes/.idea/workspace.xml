@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cececeb-0b8a-46ed-9f94-0df2819e96c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zx/test/TestD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zx/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zx/test/TestE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zx/test/TestF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/zx/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zx/pojo/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/src/main/resources/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/target/test-classes/target/test-classes/target/test-classes/src/main/resources/applicationContext.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.36865342" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.TestD">
+  <component name="RunManager" selected="Application.TestF">
     <configuration name="TestB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.test.TestB" />
       <module name="spring1" />
@@ -113,7 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestA.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.test.TestE" />
       <module name="spring1" />
       <extension name="coverage">
         <pattern>
@@ -121,10 +113,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zx.test" />
-      <option name="MAIN_CLASS_NAME" value="com.zx.test.TestA" />
-      <option name="METHOD_NAME" value="testA" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zx.test.TestF" />
+      <module name="spring1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zx.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,18 +194,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestA.testA" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.50" />
       <item itemvalue="Application.TestB" />
       <item itemvalue="Application.TestC" />
       <item itemvalue="Application.TestD" />
+      <item itemvalue="Application.TestE" />
+      <item itemvalue="Application.TestF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestF" />
+        <item itemvalue="Application.TestE" />
         <item itemvalue="Application.TestD" />
         <item itemvalue="Application.TestC" />
         <item itemvalue="Application.TestB" />
-        <item itemvalue="JUnit.TestA.testA" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +236,7 @@
       <workItem from="1586176077078" duration="1128000" />
       <workItem from="1586177408638" duration="137000" />
       <workItem from="1586177712443" duration="609000" />
-      <workItem from="1586178372966" duration="2875000" />
+      <workItem from="1586178372966" duration="3922000" />
     </task>
     <task id="LOCAL-00001" summary="IOC 注入的三种方法">
       <created>1586180764034</created>
@@ -242,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586180764034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DI 构造方法">
+      <created>1586181345579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586181345579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +260,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IOC 注入的三种方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="IOC 注入的三种方法" />
+    <MESSAGE value="DI 构造方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI 构造方法" />
   </component>
   <component name="WindowStateProjectService">
     <state x="879" y="385" key="#Project_Structure" timestamp="1586176119476">
@@ -265,29 +276,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1093" y="443" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586180914518" />
-    <state x="891" y="323" key="CommitChangelistDialog2" timestamp="1586180763826">
+    <state x="891" y="323" key="CommitChangelistDialog2" timestamp="1586181345450">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="891" y="323" key="CommitChangelistDialog2/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586180763826" />
-    <state width="2518" height="670" key="GridCell.Tab.0.bottom" timestamp="1586181239326">
+    <state x="891" y="323" key="CommitChangelistDialog2/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586181345450" />
+    <state width="2518" height="422" key="GridCell.Tab.0.bottom" timestamp="1586182042343">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="670" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586181239326" />
+    <state width="2518" height="422" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586182042343" />
     <state width="2518" height="317" key="GridCell.Tab.0.bottom/0.0.2560.1440/2560.169.1920.1177@0.0.2560.1440" timestamp="1586180537336" />
-    <state width="2518" height="670" key="GridCell.Tab.0.center" timestamp="1586181239324">
+    <state width="2518" height="422" key="GridCell.Tab.0.center" timestamp="1586182042341">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="670" key="GridCell.Tab.0.center/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586181239324" />
+    <state width="2518" height="422" key="GridCell.Tab.0.center/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586182042341" />
     <state width="2518" height="317" key="GridCell.Tab.0.center/0.0.2560.1440/2560.169.1920.1177@0.0.2560.1440" timestamp="1586180537334" />
-    <state width="2518" height="670" key="GridCell.Tab.0.left" timestamp="1586181239323">
+    <state width="2518" height="422" key="GridCell.Tab.0.left" timestamp="1586182042341">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="670" key="GridCell.Tab.0.left/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586181239323" />
+    <state width="2518" height="422" key="GridCell.Tab.0.left/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586182042341" />
     <state width="2518" height="317" key="GridCell.Tab.0.left/0.0.2560.1440/2560.169.1920.1177@0.0.2560.1440" timestamp="1586180537333" />
-    <state width="2518" height="670" key="GridCell.Tab.0.right" timestamp="1586181239325">
+    <state width="2518" height="422" key="GridCell.Tab.0.right" timestamp="1586182042342">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2518" height="670" key="GridCell.Tab.0.right/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586181239325" />
+    <state width="2518" height="422" key="GridCell.Tab.0.right/0.0.2560.1440/2560.146.1920.1200@0.0.2560.1440" timestamp="1586182042342" />
     <state width="2518" height="317" key="GridCell.Tab.0.right/0.0.2560.1440/2560.169.1920.1177@0.0.2560.1440" timestamp="1586180537335" />
     <state x="768" y="301" key="SettingsEditor" timestamp="1586179230682">
       <screen x="0" y="0" width="2560" height="1440" />

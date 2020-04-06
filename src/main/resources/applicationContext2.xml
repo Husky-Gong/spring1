@@ -15,5 +15,20 @@
         <constructor-arg name="school" ref="school"/>
     </bean>
     <!-- Set方法注入 -->
-    <bean id="school"
+    <bean id="school2" class="com.zx.pojo.School">
+        <property name="location" value="boston"/>
+        <property name="name" value="neu"/>
+    </bean>
+    <bean id="stu4" class="com.zx.pojo.Student">
+        <property name="name" value="zexi"/>
+        <property name="age" value="25"/>
+        <property name="school" ref="school2"/>
+        <property name="sex" value="male"/>
+    </bean>
+    <!-- 自动注入方式 -->
+    <bean id="stu5" class="com.zx.pojo.Student" autowire="byName">
+        <property name="name" value="zexi"/>
+        <property name="sex" value="male"/>
+        <property name="age" value="25"/>
+    </bean>
 </beans>
